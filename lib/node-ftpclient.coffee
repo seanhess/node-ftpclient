@@ -1,13 +1,3 @@
-# telnet ftp.tvdata.com 21
-# USER utcitv
-# PASS chu35llc
-# STAT On2
-# PWD
-# PASV
-# CWD On2
-# STAT .
-# PASV
-# RETR
 
 sys: require "sys"
 net: require "net"
